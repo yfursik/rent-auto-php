@@ -5,7 +5,7 @@ Autor: Yehor Fursik
 1. Anotace a cíl projektu
 Cílem tohoto semestrálního projektu bylo vytvořit plně funkční webovou aplikaci pro půjčovnu luxusních aut. Aplikace umožňuje běžným uživatelům prohlížet katalog vozidel a odesílat žádosti o rezervaci. Pro majitele (administrátora) je k dispozici redakční systém (CRUD) pro správu vozového parku a vyřizování objednávek.
 
-#2. Použité technologie
+2. Použité technologie
 
 Front-end: HTML5, CSS3, Bootstrap 5 (pro responzivní a moderní design).
 

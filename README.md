@@ -1,8 +1,8 @@
-#Název projektu: RentAuto – Rezervační systém pro půjčovnu vozidel
+Název projektu: RentAuto – Rezervační systém pro půjčovnu vozidel
 
-#Autor: Yehor Fursik
+Autor: Yehor Fursik
 
-#1. Anotace a cíl projektu
+1. Anotace a cíl projektu
 Cílem tohoto semestrálního projektu bylo vytvořit plně funkční webovou aplikaci pro půjčovnu luxusních aut. Aplikace umožňuje běžným uživatelům prohlížet katalog vozidel a odesílat žádosti o rezervaci. Pro majitele (administrátora) je k dispozici redakční systém (CRUD) pro správu vozového parku a vyřizování objednávek.
 
 #2. Použité technologie
@@ -13,7 +13,7 @@ Back-end: PHP 8.
 
 Databáze: MySQL (propojení přes objektové rozhraní mysqli).
 
-#3. Funkcionalita a splnění požadavků (CRUD)
+3. Funkcionalita a splnění požadavků (CRUD)
 Projekt plně implementuje architekturu CRUD:
 
 Create (Vytváření):
@@ -38,14 +38,14 @@ Administrátor může odstranit auto z databáze.
 
 Administrátor může smazat (vyřídit) rezervaci zákazníka.
 
-#4. Struktura databáze
+4. Struktura databáze
 Databáze rent_auto obsahuje dvě propojené tabulky (relace 1:N):
 
 cars (id, brand, model, price_per_day, description, image_url) – uchovává informace o autech.
 
 bookings (id, car_id, client_name, client_phone, start_date, end_date) – uchovává informace o rezervacích a pomocí klíče car_id je propojena s konkrétním vozidlem (ON DELETE CASCADE).
 
-#5. Návod na zprovoznění (pro vyučujícího)
+5. Návod na zprovoznění (pro vyučujícího)
 
 Nakopírujte složku s projektem do kořenového adresáře lokálního serveru (např. C:\xampp\htdocs\project).
 
